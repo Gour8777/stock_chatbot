@@ -6,8 +6,8 @@ Backend: **FastAPI (Python)** · Frontend: **React (Vite)**
 
 ## 🗂 Project Structure
 stock_chatbot/
-├─ data/ # optional local data
-├─ models/ # ML code (ARIMA predictor)
+├─ data/ # optional local data\n
+├─ models/ # ML code (ARIMA predictor)\n
 ├─ src/ # FastAPI app (main.py)
 ├─ utils/ # yfinance, news fetchers, helpers
 ├─ tests/ # (optional) tests
