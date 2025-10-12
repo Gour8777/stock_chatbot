@@ -6,16 +6,26 @@ Backend: **FastAPI (Python)** · Frontend: **React (Vite)**
 
 ## 🗂 Project Structure
 stock_chatbot/
-├─ data/ # optional local data\n
-├─ models/ # ML code (ARIMA predictor)\n
+├─ data/ # optional local data
+
+├─ models/ # ML code (ARIMA predictor)
+
 ├─ src/ # FastAPI app (main.py)
+
 ├─ utils/ # yfinance, news fetchers, helpers
+
 ├─ tests/ # (optional) tests
+
 ├─ stock-chat-frontend/ # React UI (Vite)
+
 ├─ .env # backend secrets (NOT committed)
+
 ├─ .gitignore
+
 ├─ requirements.txt
+
 └─ README.md
+
 
 🐍 Backend (FastAPI)
 1) Install Python deps
