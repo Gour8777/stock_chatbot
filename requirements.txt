@@ -1,0 +1,14 @@
+# Required libraries
+flask
+fastapi
+requests
+beautifulsoup4
+matplotlib
+plotly
+pandas
+numpy
+scikit-learn
+statsmodels
+tensorflow
+keras
+newspaper3k

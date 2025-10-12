@@ -1,0 +1,106 @@
+# ==========================
+# OS / Editor junk
+# ==========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# Python (FastAPI backend under src/, utils/, models/, etc.)
+# ==========================
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+
+# Compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Tests / coverage
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+.cache/
+
+# Local DB or data files
+*.db
+*.sqlite3
+instance/
+*.log
+*.pid
+data/*.csv
+data/*.json
+
+# ==========================
+# Node / React frontend
+# ==========================
+stock-chat-frontend/node_modules/
+stock-chat-frontend/dist/
+stock-chat-frontend/build/
+stock-chat-frontend/.next/
+stock-chat-frontend/out/
+
+# Environment files for React
+stock-chat-frontend/.env
+stock-chat-frontend/.env.local
+stock-chat-frontend/.env.development.local
+stock-chat-frontend/.env.production.local
+stock-chat-frontend/.env.test.local
+
+# Debug logs
+stock-chat-frontend/npm-debug.log*
+stock-chat-frontend/yarn-debug.log*
+stock-chat-frontend/yarn-error.log*
+stock-chat-frontend/pnpm-debug.log*
+
+# ==========================
+# Docker / Miscellaneous
+# ==========================
+*.pid
+*.sock
+*.tar
+*.tar.gz
+*.lock
+*.pem
+*.crt
+*.key
+
+# ==========================
+# Cache / Temp files
+# ==========================
+__MACOSX/
+.tmp/
+.cache/
