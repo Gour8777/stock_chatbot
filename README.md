@@ -27,7 +27,7 @@ stock_chatbot/
 └─ README.md
 
 
-🐍 Backend (FastAPI)
+## 🐍 Backend (FastAPI)
 1) Install Python deps
 # from project root
 python -m venv .venv
@@ -79,7 +79,7 @@ generates a concise report via Gemini (uses GEMINI_API_KEY)
 
 includes CORS middleware enabled for the frontend
 
-⚛️ Frontend (React + Vite)
+## ⚛️ Frontend (React + Vite)
 1) Install deps
 cd stock-chat-frontend
 npm install
